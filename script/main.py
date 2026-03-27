@@ -58,7 +58,7 @@ def _automation(instructor_id: str, *, headless: bool = True) -> None:
 
         if islast_page:
             logger.info("--- All pages processed ---")
-            logger.info(f"\n{'-'*50}\nAll classes have been marked as canceled for the instructor: {instructor_id}.\n{'-'*50}")
+            logger.info(f"\n{'='*70}\nAll classes have been marked as canceled for the instructor: {instructor_id}.\n{'='*70}")
             break
 
 
