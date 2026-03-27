@@ -4,4 +4,3 @@ chrome.exe
 chrome-dir
 __pycache__
 .idea
-*.csv
